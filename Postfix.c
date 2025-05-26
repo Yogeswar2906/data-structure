@@ -40,7 +40,7 @@ void infixToPostfix(char* infix) {
 	}
 	while(top!=-1)
 	postfix[j++]=pop();
-	8
+	
 	postfix[j]='\0';
 	printf("positive:%s\n",postfix);
 }
